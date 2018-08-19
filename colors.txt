@@ -1,0 +1,3 @@
+light: #861B47
+dark: #5E1332
+text: #FFFFFF
