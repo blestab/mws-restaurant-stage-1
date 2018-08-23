@@ -1,0 +1,44 @@
+ Yikes!  TypeError: restaurants.forEach is not a function
+    at fillRestaurantsHTML (VM91427 main.js:150)
+    at DBHelper.fetchRestaurantByCuisineAndNeighborhood (VM91427 main.js:123)
+    at DBHelper.fetchRestaurants (VM91426 dbhelper.js:121)
+    at fetch.then.then.restaurants (VM91426 dbhelper.js:50)
+    
+    
+TypeError: restaurants.map is not a function
+    at DBHelper.fetchRestaurants (VM91587 dbhelper.js:135)
+    at fetch.then.then.restaurants (VM91587 dbhelper.js:49)
+    
+
+main.js:119 TypeError: restaurants.forEach is not a function
+    at fillRestaurantsHTML (main.js:149)
+    at DBHelper.fetchRestaurantByCuisineAndNeighborhood (main.js:122)
+    at DBHelper.fetchRestaurants (dbhelper.js:120)
+    at fetch.then.then.restaurants (dbhelper.js:49)
+DBHelper.fetchRestaurantByCuisineAndNeighborhood @ main.js:119
+DBHelper.fetchRestaurants @ dbhelper.js:111
+fetch.then.then.catch.err @ dbhelper.js:50
+Promise.catch (async)
+fetchRestaurants @ dbhelper.js:50
+fetchRestaurantByCuisineAndNeighborhood @ dbhelper.js:109
+updateRestaurants @ main.js:117
+initMap @ main.js:89
+document.addEventListener @ main.js:11
+
+main.js:22 TypeError: restaurants.map is not a function
+    at DBHelper.fetchRestaurants (dbhelper.js:135)
+    at fetch.then.then.restaurants (dbhelper.js:49)
+DBHelper.fetchNeighborhoods @ main.js:22
+DBHelper.fetchRestaurants @ dbhelper.js:132
+fetch.then.then.catch.err @ dbhelper.js:50
+Promise.catch (async)
+fetchRestaurants @ dbhelper.js:50
+fetchNeighborhoods @ dbhelper.js:130
+fetchNeighborhoods @ main.js:20
+document.addEventListener @ main.js:12
+
+main.js:49 TypeError: restaurants.map is not a function
+    at DBHelper.fetchRestaurants (dbhelper.js:153)
+    at fetch.then.then.restaurants (dbhelper.js:49)    
+    
+    
