@@ -5,7 +5,7 @@
     "neighborhood": "Manhattan",
     "photograph": "1-small.jpg",
     "srcset_home": "img/1-medium.jpg 1x, img/1-large.jpg 2x",
-    "srcset_restaurant": "img/1-medium.jpg 600w, img/1-large.jpg 800w",
+    "srcset_restaurant": "img/1-small.jpg 400w,img/1-medium.jpg 600w, img/1-large.jpg 800w",
     "alt_text": "Evening at MISSION CHINESE FOOD",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
