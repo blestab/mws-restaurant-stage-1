@@ -123,9 +123,10 @@ nav h1 a img{
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   background-color: #3397DB;
   display: flex;
+	flex-flow: wrap;
   align-items: center;
 }
 .filter-options h2 {
@@ -134,6 +135,7 @@ nav h1 a img{
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+	min-width: 165px;
 }
 .filter-options select {
   background-color: white;
@@ -144,7 +146,7 @@ nav h1 a img{
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  min-width: 150px;
+  min-width: 165px;
 }
 .filter-options label {
   width: 0;
@@ -161,7 +163,7 @@ nav h1 a img{
   flex-wrap: wrap;
   height: 100%;
   text-align: center;
-	width: 100%;
+	/*width: 100%;*/
 	justify-content: space-evenly;
 }
 #restaurants-list li {
@@ -172,7 +174,7 @@ nav h1 a img{
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: center;
-  min-width: 250px;
+  /*min-width: 250px; */
   /*width: calc(100% - 2vw);*/
 	width: 100%;
   display: inline-block;
@@ -376,9 +378,9 @@ nav h1 a img{
 }
 @media screen and (max-width: 700px) {
 	#restaurants-list {
-		width: 100%;
+		/* width: 100%; */
 	}
-	#restaurant-container, #reviews-container, #breadcrumb {
+	#restaurant-container, #reviews-container {
     width: 100%;
   }
 }
